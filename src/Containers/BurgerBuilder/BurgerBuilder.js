@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
+import Burger from '../../Components/Burger/Burger';
 
 const burgerBuilder = props => {
     return (
         <Fragment>
-            <div>Burger</div>
+            <Burger />
             <div>Builder contros</div>
         </Fragment>
     );
