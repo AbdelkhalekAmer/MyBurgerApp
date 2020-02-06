@@ -36,7 +36,7 @@ const burgerIngredient = props => {
     }
 
     return ingredient;
-    
+
 };
 
 // Model Validation using PropTypes
