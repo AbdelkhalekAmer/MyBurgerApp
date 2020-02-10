@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './BurgerIngredient.module.css';
 import PropTypes from 'prop-types';
 
-const burgerIngredient = props => {
+const BurgerIngredient = props => {
 
     let ingredient = null;
 
@@ -40,8 +40,8 @@ const burgerIngredient = props => {
 };
 
 // Model Validation using PropTypes
-burgerIngredient.prototype = {
+BurgerIngredient.prototype = {
     types: PropTypes.string.isRequired
 }
 
-export default burgerIngredient;
+export default BurgerIngredient;

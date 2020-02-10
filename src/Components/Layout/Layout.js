@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import classes from './Layout.module.css';
 
-const layout = props => {
+const Layout = props => {
     return (<Fragment>
         <div>Toolbar, Side drawer, Backdrop</div>
         <main className={classes.Content}>
@@ -10,4 +10,4 @@ const layout = props => {
     </Fragment>);
 };
 
-export default layout;
+export default Layout;
